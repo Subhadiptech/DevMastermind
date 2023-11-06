@@ -1,4 +1,4 @@
-package com.ersubhadip.devmastermind_gamifyyourdevelopmentjourney
+package com.ersubhadip.devmastermind_gamifyyourdevelopmentjourney.core
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp
