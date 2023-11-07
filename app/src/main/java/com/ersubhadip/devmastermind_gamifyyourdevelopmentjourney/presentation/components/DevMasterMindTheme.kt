@@ -178,8 +178,9 @@ fun TextWithShadow(
     modifier: Modifier = Modifier,
     text: String,
     textStyle: TextStyle = TextStyle.Default.copy(
-        fontSize = 100.sp,
-        fontWeight = FontWeight.W600
+        fontSize = 24.sp,
+        fontWeight = FontWeight.W600,
+        fontFamily = LexendDecaRegular
     ),
     shadowSize: Dp = 8.dp
 ) {

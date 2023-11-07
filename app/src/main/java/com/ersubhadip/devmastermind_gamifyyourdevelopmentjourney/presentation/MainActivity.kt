@@ -1,4 +1,4 @@
-package com.ersubhadip.devmastermind_gamifyyourdevelopmentjourney
+package com.ersubhadip.devmastermind_gamifyyourdevelopmentjourney.presentation
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
