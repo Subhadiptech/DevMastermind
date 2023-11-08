@@ -218,10 +218,10 @@ fun TextWithShadow(
             drawText(
                 textLayoutResult = textLayoutResult,
                 topLeft = Offset(
-                    x = textLayoutResult.size.width.toFloat() / 2,
+                    x = 0f,
                     y = textLayoutResult.size.height.toFloat() / 2
                 ),
-                color = Color.Black,
+                color = Color.White,
                 shadow = Shadow(
                     color = Color.Gray,
                     offset = Offset(
@@ -237,7 +237,7 @@ fun TextWithShadow(
 
 @Preview(
     showBackground = true,
-    backgroundColor = 0xFFFFFFFF
+    backgroundColor = 0x000000
 )
 @Composable
 fun TextWithShadowPreview() {

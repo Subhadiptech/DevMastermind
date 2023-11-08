@@ -24,5 +24,6 @@ val Black800 = "#848484".toColor()
 val Black600 = "#BDBDBD".toColor()
 val Black400 = "#E8E8E8".toColor()
 val Black200 = "#F6F6F6".toColor()
+val CardColor = "#1a1a1b".toColor()
 
 private fun String.toColor() = Color(android.graphics.Color.parseColor(this))

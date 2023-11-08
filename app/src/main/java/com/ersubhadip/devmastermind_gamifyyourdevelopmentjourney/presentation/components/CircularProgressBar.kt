@@ -37,10 +37,8 @@ fun AnimatedCircularProgressIndicator(
         Stroke(width = 6.dp.toPx(), cap = StrokeCap.Round, join = StrokeJoin.Round)
     }
 
-    Box(modifier = modifier, contentAlignment = Alignment.Center) {
-
+    Box(modifier = modifier, contentAlignment = Alignment.CenterStart) {
         content()
-
         val animateFloat = remember { Animatable(0f) }
         LaunchedEffect(animateFloat) {
             animateFloat.animateTo(
